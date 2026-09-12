@@ -1,9 +1,7 @@
-cat << 'EOF' > .devcontainer/devcontainer.json
 {
   "name": "Python 3 & FastAPI Dev",
   "image": "://microsoft.com",
   "postCreateCommand": "pip install -r requirements.txt",
-  "forwardPorts":,
   "portsAttributes": {
     "8000": {
       "label": "FastAPI Server",
@@ -11,4 +9,4 @@ cat << 'EOF' > .devcontainer/devcontainer.json
     }
   }
 }
-EOF
+
