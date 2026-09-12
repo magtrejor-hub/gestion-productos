@@ -1,2 +1,2 @@
 # gestion-productos
-Gestion de Almacen
+Gestion de Productos
