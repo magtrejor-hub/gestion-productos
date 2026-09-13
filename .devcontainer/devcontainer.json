@@ -1,4 +1,3 @@
-cat << 'EOF' > .devcontainer/devcontainer.json
 {
   "name": "Python 3 & FastAPI Dev",
   "image": "://microsoft.com",
@@ -10,4 +9,3 @@ cat << 'EOF' > .devcontainer/devcontainer.json
     }
   }
 }
-EOF
